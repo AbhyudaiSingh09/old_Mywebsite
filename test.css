@@ -1,0 +1,114 @@
+.body{
+    border: 0.5px;
+    color: black;
+}
+/* Navbar*/
+.navbarbox{
+    width: 100%;
+	height: 75px;
+	background-color:transparent;
+	border: 0px solid black;
+}
+
+.navbar {
+    padding: 10px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar a {
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    opacity: 90%;
+    padding: 20px;
+}
+/* Navbar*/
+
+
+/*homepage*/
+
+.slefimagebox{
+    width: 500px;
+	height: 600px;
+	background-color: #F7CAC9;
+	border: 0px solid black;
+}
+
+.slefimagebox image {
+    position: relative;
+}
+
+
+.slefimagebox p{
+    padding-left: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.slefimagebox h2{
+    padding-left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+#Home {
+    background-image: URL(media/homeWallpaper.jpg);
+    position: relative;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+.icons {
+    font-size:5em;
+    padding-bottom: 10px;
+    padding-left: 1200px;
+}
+
+  /*homepage*/ 
+  /*About*/
+#About{
+    background:relative;
+    background-color: aliceblue;
+}
+
+.aboutme p{
+    color: black;
+
+}
+
+  /*About*/
+
+
+
+
+/* Navbar CSS Start*/
+.navbarbox{
+    width: 100%;
+	height: 175px;
+	background-color:transparent;
+	border: 0px solid black;
+    transform: translate(-50%, -50%);
+}
+
+
+.navbar a {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    opacity: 90%;
+    padding: 20px;
+}
+/* Navbar CSS End*/
