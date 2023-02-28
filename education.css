@@ -2,7 +2,7 @@
 /* Section 3 starts */
 
 #section3{
-    background-image: URL(media/education.jpg);
+    background-image: URL(media/education2.jpg);
     background-size: cover;
     background-position: center center;
     height: 60vh;
@@ -20,7 +20,7 @@
         padding-top: 8%;
         padding-left: 2%;
         font-size: 1.5em;
-        color: #cd6b20;
+        color: #e56b0d;
         font-family:'Times New Roman', Times, serif;
     }
     
@@ -46,7 +46,7 @@
         margin-left: 10px;
         font-size: 40px;
         font-family: cursive;
-        color: white;
+        color: white ;
     }
 
     .collegerightbox{
