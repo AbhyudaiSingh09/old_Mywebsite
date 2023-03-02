@@ -1,0 +1,56 @@
+
+/* Section 4 starts */
+
+#section4{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    padding-bottom:2% ;
+}
+
+.skillsbox{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+}
+
+.skillsbox h4{
+    padding-top: 4%;
+    padding-left: 2%;
+    font-size: 1.5em;
+    color: #cd6b20;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.skillsbox table{
+    width: 100%;
+    max-width: 1550px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+
+.skillsbox p{
+    color: rgba(0, 0, 0, 0.615);
+}
+
+
+
+.skillsbox td{
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: center;
+
+}
+  
+.skillsbox tr{
+    background-color: #ffffff;
+}
+
+.headingspan h3{
+    color: rgba(12, 4, 161, 0.838);
+
+}
+  
+
+/* Section 4 ends  */
