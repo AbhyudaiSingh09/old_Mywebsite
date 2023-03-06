@@ -1,95 +1,91 @@
-
-/* Section 5 starts */
-
-#section5{
-    background-color: rgba(0, 0, 0, 0.78);
-    height: 100%;
-    width: 100%; 
+#section6 {
+   height: 100%;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+ }
+ 
+#section6  h4{
+   padding-top: 4%;
+   padding-left: 2%;
+   font-size: 1.5em;
+   color: #cd6b20;
+   font-family:'Times New Roman', Times, serif;
 }
 
-.worktimelinebox{
-    background-color: rgb(0, 0, 0.78);
-    height: 1000px;
-    width: 100%; 
+ .titlebox {
+   height: 50px;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.608);
+   position: relative;
+   margin-top: 20px;
+   border-radius: 5px;
+   box-shadow: 0, 2px, 4px, rgb(0, 0, 0);
+ }
+
+ .titlebox h3{
+   color: rgb(255, 255, 255);
+   font-family: Arial, Helvetica, sans-serif;
+   font-family: cursive;
+   text-align: center;
+   font-size: 30px;
+ }
+ 
+ .desbox {
+   height: fit-content;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.132);
+   display: none;
+   position: relative;
+   top: 100%;
+   left: 0;
+   margin-top: 2px;
+   border-radius: 5px;
+   box-shadow: 0, 2px, 4px, rgba(66, 0, 0, 0.656);
+   transition: height 2s;
+ }
+
+ .desbox li{
+ color: rgb(0, 0, 0);
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: left;
+ font-size: 20px;
+ }
+
+ .desbox h5{
+   color: orangered;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: left;
+ font-size: 25px;
+ font-family: cursive;
+ }
+ 
+ .titlebox:hover + .desbox {
+   display:flow-root;
+   height: fit-content;
+ }
+
+.counter{
+   margin-top: 30px;
+   height: 300px;
+   width: 100%;
+   background-image: url(media/codecount2.jpeg);
+   background-size:cover;
+   background-position: relative;
 }
 
-.worktimelinebox h4{
-padding-top: 4%;
-padding-left: 2%;
-font-size: 1.5em;
-color: #cd6b20;
-font-family:'Times New Roman', Times, serif;
+.counter .count {
+   font-size: 5em;
+   color: #ffffff;
+   display: block;
+   text-align: center;
+   animation: count-up 2s ease-out forwards;
 }
 
-
-
-.line{
-    height: 600px;
-    width: 5px;
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    margin-left: 50%;
- }
-
- .cardleft{
-    padding-left: 02%;
-    height: auto;
-    width: 500px;
-    position: relative;
-    padding: 2%;
-    float: left;
-    margin: 0 0 20px 20px;
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    color: gray;
-    border-radius: 8px;
- }
-
- .cardright{
-    padding-left: 02%;
-    height: auto;
-    width: 500px;
-    position: relative;
-    padding-right: 2%;
-    float: left;
-    margin: 20px 20px 20px 20px;
-    padding: 10px;
-    background-color: rgb(250, 250, 250);
-    color: gray;
-    border-radius: 8px;
-    float: right;
- }
-
- .titleleft{
-    color: orangered;
-    position: relative;
- }
-
-
- .titleleft::before {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: white;
-    border-radius: 999px;
-    left: -35px;
-    border: 3px solid orangered;
-  }
-
-  .titleright{
-    color: orangered;
-    position: relative;
- }
-
-
- .titleright::after {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: white;
-    border-radius: 999px;
-    left: 520px; 
-    border: 3px solid orangered;
-  }
+@keyframes count-up {
+   from {
+      counter-reset: count 0;
+   }
+   to {
+      counter-increment: count 1000;
+   }
+}
