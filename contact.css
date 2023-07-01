@@ -1,0 +1,34 @@
+
+.box {
+    width: 100%; /* Set the width of the box */
+    height: 200px; /* Set the height of the box */
+    background-color: black; /* Set the background color of the box */
+  }
+
+.box ol{
+    padding-left: 40%;
+}
+
+
+.box li{
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 2em;
+    font-style: italic;
+}
+  
+
+.skillsbox{
+    background-color:transparent;
+    border-radius: 2%;
+    height: 100%;
+    width: 100%;
+}
+
+.skillsbox h4{
+    padding-top: 2%;
+    padding-left: 2%;
+    font-size: 1.5em;
+    color: #cd6b20;
+    font-family:'Times New Roman', Times, serif;
+}

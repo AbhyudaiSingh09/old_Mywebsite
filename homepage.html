@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="button.css">
     <link rel="stylesheet" type="text/css" href="education.css">
     <link rel="stylesheet" type="text/css" href="workexperience.css">
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
@@ -21,8 +23,7 @@
                 <a href="#section4">Skills</a>
                 <a href="#section5">Work Experience</a>
                 <a href="#section6">Projects</a>
-                <a href="#section7">Certifications</a>
-                <a href="#">Contact</a>
+                <a href="#section7">Contact</a>
             </div>
             <div class="section1box">
                 <div class="selfimagebox">
@@ -133,9 +134,14 @@
                         <p> Capgemini, India <br> 
                             December 2019- December 2021 <br> 
                             <ul>
-                                <li>Deployed the web application for a marketing firm using Python, HTML, and CSS on the Azure cloud, based on the Flask framework while working in an Agile environment.</li><br>
-                                <li>Designed the GUI and backend for the login module with email-based authentication and authorization. Also created two modules for bidding and ticketing for the app.</li><br>
-                                <li>Incorporated content display and text processing with Redis cache and SQL database for multiple instances using distributed computing, resulting in a 10-fold increase in time efficiency.</li><br>
+                                <li>Deployed the web application for a marketing firm using Python, HTML, CSS and React on the Azure cloud, based on the Flask framework while working in an Agile and Waterfall environment and reduced development time by 20% by efficient deployment strategies and process optimization.</li>
+                                <li>Designed GUI and backend for the login module with email-based authentication and authorization. Also created two modules for bidding and ticketing for the app.</li>
+                                <li>Incorporated content display and text processing with Redis cache and SQL database for multiple instances using distributed computing, resulting in a 10-fold increase in time efficiency.</li>
+                                <li>Structure the web app securely, using three different types of security techniques: encryption, regex, and the KMP string-matching algorithm hosted using Azure Clous Service.</li>
+                                <li>Stored encrypted data in a SQL database with two appropriate data types and decrypted it when needed.</li>
+                                <li>Static typing, memory-safe programming, and object-oriented programming concepts improved security
+                                    against 70% of CVEs.</li>
+                                <li>Technology Stack: Python, React, HTML, CSS, Flask, Azure Cloud Services SQL, KMP string-matching algorithms.</li>    
                             </ul>
                             <h5> Certificate:<a href="https://drive.google.com/file/d/1sO3unEM8aMBEIx0Mvr85i9yaJqzvGUX1/view?usp=share_link"><span style="color: rgba(255, 68, 0, 0.916) ;">Click here to view Certificates</span></a></h5>
                         </p>    
@@ -144,9 +150,12 @@
                         <p class="titleright"> Associate Engineer</p>
                         <p> Spectra, India </p>
                         <ul>
-                            <li> Wrote scripts for Form validation of user data using 2 techniques regex and string-matching algorithms.</li> <br>
-                            <li> Relational database management, including optimizing database performance and scalability, regularly
-                                monitoring query execution time to ensure high-quality project delivery and operational efficiency, maintaining 95% uptime, and utilizing triggers as needed. </li> <br>
+                            <li>Worked with stakeholders to understand the requirements of the database and then designed the database schema.</li>
+                            <li>Once the database schema was designed, implemented the database using a DBMS.</li>
+                            <li>Optimized databases to improve performance.</li>
+                            <li>Secured databases to protect the data from unauthorized access</li>
+                            <li>Backed up and restored databases to protect the data from loss.</li>
+                            <li>Monitored databases to identify and troubleshoot problems.</li>
                         </ul>
                     </div>
                 </div>
@@ -158,14 +167,79 @@
         <!----------------------------------------------------------------------------------------------------------->
 
         <!-- Projects start -->
-        <section id="#section6">
-        
-        
-        
-        
+        <section id="section6" >
+            <div class = "skillsbox">
+                <h4>06. Technical Projects </h4>
+                <button type="button" class="collapsible">Shared Secured Services Web App</button>
+                <div class="content">
+                    <p>Shared Secured Services is a Web App that contains collection of shared and secured services commonly used in web applications. These services are designed to provide common functionality related to authentication, authorization, logging, error handling, and more.</p>
+                        <ol>
+                            <li><strong>Authentication Service:</strong> This service handles user authentication and provides functionality for user registration, login, logout, and password reset.</li>
+                            <li><strong>Authorization Service:</strong> The authorization service is responsible for managing user roles and permissions. It provides an interface to define roles and assign permissions to those roles.</li>
+                            <li><strong>Logging Service:</strong>The logging service offers a centralized logging mechanism for the application. It allows logging of various types of events, such as errors, warnings, and informational messages.</li>
+                            <li><strong>Error Handling Service:</strong> The error handling service provides a standardized way to handle and process errors in the application. It includes error logging, error reporting, and customizable error messages.</li>
+                            <li><strong>Caching Service:</strong> The caching service allows for efficient storage and retrieval of frequently accessed data. It utilizes a cache store to store data in memory, reducing the need for repeated database or API calls.</li>
+                            <li><strong>Email Service: </strong>The email service enables sending transactional emails from the application. It provides an interface to compose and send emails, including features like email templates, attachments, and SMTP configuration.</li>
+                            <li><strong>File Storage Service: </strong>The file storage service provides functionality to store and retrieve files in a secure and scalable manner. It abstracts the underlying file storage system, allowing for easy switching between different storage providers.</li>
+                        </ol>       
+                </div>
+                <button type="button" class="collapsible">Distance Vector Protocol Developmet</button>
+                <div class="content">
+                    <p>This is a Python implementation of Bellman-Ford's single source shortest path algorithm. It calculates the shortest paths from a single source vertex to all of the other vertices in a weighted graph. The implementation includes a Graph class, which represents the graph and provides methods for adding edges and calculating the shortest paths using Bellman-Ford's algorithm.</p>
+                </div>
+                <button type="button" class="collapsible">Calculator(RUST)</button>
+                <div class="content">
+                    <p>A command-line calculator application implemented in Rust. It provides four different calculator functionalities: Print Stack, Arithmetic Calculator, Bitwise Calculator, and Negate Calculator. You can select the desired calculator functionality by entering the corresponding number.</p>
+                </div>
+                <button type="button" class="collapsible">RPC FileSync: Synchronized File Management and Computation Service</button>
+                <div class="content">
+                    <p>In this project, we implemented a file upload and download service and a computation service using remote procedure call (RPC) based communication. The file server supported operations like UPLOAD, DOWNLOAD, DELETE, and RENAME for files. Additionally, the computation server provided predefined procedures for add(i, j) and sort(array A).
+
+                        In Part-1, we successfully implemented a multi-threaded file server that allowed clients to perform file operations. Moving on to Part-2, we focused on creating a synchronized storage service similar to Dropbox. We developed a helper thread that handled automatic synchronization between client and server folders. This ensured that any changes made in the synchronized folder were reflected on the server side. For Part-3, we implemented a computation server capable of supporting both synchronous and asynchronous RPCs for add(i, j) and sort(array A) operations.</p>
+                </div>
+                <button type="button" class="collapsible">Socket Programming</button>
+                <div class="content">
+                    <p>It was a client-server program that enables the server to send a file to a client that requests it. The server listens for client requests on a specified port and sends the file requested by the client. The client sends a request for the file by specifying the IP address and port number of the server, and the name of the file to be received.</p>
+                </div>
+                <button type="button" class="collapsible">Shell Programming in C </button>
+                <div class="content">
+                    <p>shell program implemented in C that provides basic command-line interpreter functionalities. It allows users to execute commands, manage command history, change directories, and view process IDs (PIDs) of executed child processes.</p>
+                </div>
+                <button type="button" class="collapsible">My File System (MFS)</button>
+                <div class="content">
+                    <p>My File System (MFS) is a simple file system implementation in C language. It provides basic functionality for managing files and directories within a file system image. </p>
+                </div>
+                <button type="button" class="collapsible">Arena Allocator</button>
+                <div class="content">
+                    <p>This code provides a simple memory allocation library called mavalloc along with test cases implemented using the tinytest framework. The library allows dynamic memory allocation and deallocation, using different allocation strategies such as BEST_FIT, FIRST_FIT, NEXT_FIT, and WORST_FIT.</p>
+                </div>
+                <button type="button" class="collapsible">Car Zone Fullstack Web App</button>
+                <div class="content">
+                    <p>CarZone is a web application that allows users to buy and sell cars online. It provides a platform for car dealerships and individual sellers to list their cars for sale, and for potential buyers to browse and search for cars based on their preferences.</p>
+                </div>
+            </div>  
         </section>
         <!-- Projects End -->
-     </main> 
+    
+        <!----------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------->
+
+        <!-- Contact start -->
+
+    <section id="section7">
+        <div class="box">
+            <div class="skillsbox">
+                <h4>07. Contact Me </h4>
+                <ol>
+                    <li><email>axs7941@mavs.uta.edu</email></li>
+                    <li><email>abhyudaisingh09@gmail.com</email></li>
+                </ol>
+            </div>
+        </div>      
+    </section>
+
+    </main> 
     <script src="homepage.js"></script>
+    <script src="project.js"></script>
 </body>
 </html>
